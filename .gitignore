@@ -4,12 +4,26 @@ __pycache__/
 *.py[cod]
 *.egg-info/
 
-# Data Files
-data/
-models/
+# Virtual env
+.venv/
 
 # VS Code
 .vscode/
 
 # macOS
 .DS_Store
+
+# Data & models
+/data/*
+!/data/.gitkeep
+/models/*
+!/models/.gitkeep
+
+# Logs
+/logs/*
+
+# Jupyter checkpoints
+notebooks/.ipynb_checkpoints/
+
+# Environment variables
+.env
